@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/WebScraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -33,6 +34,9 @@
       <change beforePath="$PROJECT_DIR$/javase/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" afterDir="false" />
     </list>
+=======
+    <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -913,6 +917,12 @@
       <workItem from="1708221892471" duration="697000" />
       <workItem from="1708292675697" duration="525000" />
       <workItem from="1708293419569" duration="110000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1708382157053" duration="1057000" />
+      <workItem from="1708383225388" duration="374000" />
+      <workItem from="1708383609237" duration="1237000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
