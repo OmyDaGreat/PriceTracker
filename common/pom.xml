@@ -18,6 +18,12 @@
             <artifactId>codenameone-core</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.17.2</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- INJECT DEPENDENCIES -->
         <dependency>
@@ -109,6 +115,15 @@
                     <artifactId>java-runtime</artifactId>
                     <scope>provided</scope>
                 </dependency>
+
+                <dependency>
+                    <groupId>org.jsoup</groupId>
+                    <artifactId>jsoup</artifactId>
+                    <version>1.17.2</version> <!-- Use the latest version available -->
+                </dependency>
+
+
+
             </dependencies>
             <build>
                 <plugins>

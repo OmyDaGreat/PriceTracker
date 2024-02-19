@@ -6,6 +6,7 @@
  */
 package com.example.pricetracker;
 
+
 import com.codename1.testing.AbstractTest;
 
 /**
@@ -16,6 +17,7 @@ public class MyFirstTest extends AbstractTest {
 
     @Override
     public boolean runTest() throws Exception {
+
         return true;
     }
     

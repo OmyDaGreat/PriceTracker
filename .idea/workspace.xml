@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="" />
+    <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/WebScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/MyFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/.cn1_css_checksums" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/example/pricetracker/PriceTracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/theme.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/codenameone/compliance_check.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/css/cn1-merged-files/e3f4ed9f6f949bf0c861b91312ee5ff5/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/css/theme.css.checksums" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/pricetracker-common-1.0-SNAPSHOT-tests.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/pricetracker-common-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/test-classes/com.example.pricetracker__pricetracker-common__cn1tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/test-classes/com/example/pricetracker/MyFirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javase/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +53,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -860,6 +889,13 @@
       <item itemvalue="Maven.Run as Desktop App" />
     </list>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -877,7 +913,6 @@
       <workItem from="1708221892471" duration="697000" />
       <workItem from="1708292675697" duration="525000" />
       <workItem from="1708293419569" duration="110000" />
-      <workItem from="1708296629121" duration="46000" />
     </task>
     <servers />
   </component>

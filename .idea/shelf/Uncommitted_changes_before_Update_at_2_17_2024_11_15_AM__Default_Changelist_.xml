@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]" date="1708197398038" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2/17/2024 11:15 AM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="common/target/classes/com/example/pricetracker/PriceTracker.class" />
+    <option name="AFTER_PATH" value="common/target/classes/com/example/pricetracker/PriceTracker.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]/PriceTracker.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="common/target/pricetracker-common-1.0-SNAPSHOT-tests.jar" />
+    <option name="AFTER_PATH" value="common/target/pricetracker-common-1.0-SNAPSHOT-tests.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]/pricetracker-common-1.0-SNAPSHOT-tests.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="common/target/test-classes/com/example/pricetracker/MyFirstTest.class" />
+    <option name="AFTER_PATH" value="common/target/test-classes/com/example/pricetracker/MyFirstTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]/MyFirstTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="common/target/pricetracker-common-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="common/target/pricetracker-common-1.0-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]/pricetracker-common-1.0-SNAPSHOT.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" />
+    <option name="AFTER_PATH" value="javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_17_2024_11_15_AM_[Default_Changelist]/MyFirstTest1.class" />
+  </binary>
+</changelist>
