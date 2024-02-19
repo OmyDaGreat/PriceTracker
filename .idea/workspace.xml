@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6cb3a5dfe47cedd357f691c3f309672d6b1411ab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6cb3a5dfe47cedd357f691c3f309672d6b1411ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/488bdbea7e8b73c44bd2a54e63f6012f10969196" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/488bdbea7e8b73c44bd2a54e63f6012f10969196" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,6 +18,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,13 +67,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Maven.Android Build.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Codename One Settings.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.Codename One Settings.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Gradle Android Project.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyFirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ProductTesting.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Run in Simulator.executor&quot;: &quot;Run&quot;,
     &quot;Maven.iOS Debug Build.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pricetracker [install,--projects...].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fixing&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ruchi/IdeaProjects/PriceTracker&quot;,
@@ -80,7 +92,25 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Maven.Codename One Settings">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.pricetracker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Run in Simulator">
+    <configuration name="ProductTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.pricetracker.ProductTesting" />
+      <module name="pricetracker-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.pricetracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Android Build" type="MavenRunConfiguration" factoryName="Maven" folderName="Build Server">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -851,6 +881,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ProductTesting" />
       <item itemvalue="Maven.Android Build" />
       <item itemvalue="Maven.iOS Debug Build" />
       <item itemvalue="Maven.iOS Release Build" />
@@ -867,11 +898,17 @@
       <item itemvalue="Maven.Run in Simulator" />
       <item itemvalue="Maven.Run as Desktop App" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProductTesting" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -890,6 +927,10 @@
       <workItem from="1708047331474" duration="42000" />
       <workItem from="1708220449078" duration="1064000" />
       <workItem from="1708221892471" duration="697000" />
+      <workItem from="1708292675697" duration="525000" />
+      <workItem from="1708293419569" duration="110000" />
+      <workItem from="1708382157053" duration="1057000" />
+      <workItem from="1708383225388" duration="374000" />
     </task>
     <servers />
   </component>
