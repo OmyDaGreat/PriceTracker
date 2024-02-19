@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/488bdbea7e8b73c44bd2a54e63f6012f10969196" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/488bdbea7e8b73c44bd2a54e63f6012f10969196" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/target/codenameone/antProject/dist/android-build/PriceTracker/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android/target/codenameone/antProject/dist/android-build/PriceTracker/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/target/pricetracker-android-1.0-SNAPSHOT-android-source/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android/target/pricetracker-android-1.0-SNAPSHOT-android-source/app/proguard-rules.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -931,6 +930,7 @@
       <workItem from="1708293419569" duration="110000" />
       <workItem from="1708382157053" duration="1057000" />
       <workItem from="1708383225388" duration="374000" />
+      <workItem from="1708383609237" duration="949000" />
     </task>
     <servers />
   </component>
