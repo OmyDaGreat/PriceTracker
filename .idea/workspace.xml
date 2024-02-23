@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -12,6 +13,10 @@
       <change beforePath="$PROJECT_DIR$/android/target/pricetracker-android-1.0-SNAPSHOT-android-source/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android/target/pricetracker-android-1.0-SNAPSHOT-android-source/app/proguard-rules.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/Product.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/Product.java" afterDir="false" />
+>>>>>>> d5778fae52ac222fde54be22c5b6daf3dc292da7
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -906,7 +911,10 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+<<<<<<< HEAD
         <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+=======
+>>>>>>> d5778fae52ac222fde54be22c5b6daf3dc292da7
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
@@ -928,9 +936,19 @@
       <workItem from="1708221892471" duration="697000" />
       <workItem from="1708292675697" duration="525000" />
       <workItem from="1708293419569" duration="110000" />
+<<<<<<< HEAD
       <workItem from="1708382157053" duration="1057000" />
       <workItem from="1708383225388" duration="374000" />
       <workItem from="1708383609237" duration="949000" />
+=======
+      <workItem from="1708316743061" duration="943000" />
+      <workItem from="1708379478073" duration="75000" />
+      <workItem from="1708380015891" duration="5360000" />
+      <workItem from="1708388889739" duration="97000" />
+      <workItem from="1708389151067" duration="15000" />
+      <workItem from="1708390494474" duration="192000" />
+      <workItem from="1708394461311" duration="18000" />
+>>>>>>> d5778fae52ac222fde54be22c5b6daf3dc292da7
     </task>
     <servers />
   </component>
