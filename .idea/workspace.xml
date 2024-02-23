@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/WebScraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/pricetracker/PriceTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/MyFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/.cn1_css_checksums" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/example/pricetracker/PriceTracker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/theme.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/codenameone/compliance_check.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/codenameone/simulator.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/compliance-check.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/css/cn1-merged-files/e3f4ed9f6f949bf0c861b91312ee5ff5/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/css/theme.css.checksums" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/pricetracker-common-1.0-SNAPSHOT-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/pricetracker-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/test-classes/com.example.pricetracker__pricetracker-common__cn1tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/test-classes/com/example/pricetracker/MyFirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javase/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/javase/target/test-classes/com/example/pricetracker/MyFirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/test/java/com/example/pricetracker/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -892,7 +867,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -913,6 +888,13 @@
       <workItem from="1708221892471" duration="697000" />
       <workItem from="1708292675697" duration="525000" />
       <workItem from="1708293419569" duration="110000" />
+      <workItem from="1708316743061" duration="943000" />
+      <workItem from="1708379478073" duration="75000" />
+      <workItem from="1708380015891" duration="5360000" />
+      <workItem from="1708388889739" duration="97000" />
+      <workItem from="1708389151067" duration="15000" />
+      <workItem from="1708390494474" duration="192000" />
+      <workItem from="1708394461311" duration="18000" />
     </task>
     <servers />
   </component>
