@@ -1,11 +1,14 @@
 package com.example.pricetracker;
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
+
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Product {
 
@@ -81,29 +84,39 @@ public class Product {
         }
 
         try {
-            Document document = Jsoup.connect(productURL).get();
+            Document document = Jsoup.connect(productURL).userAgent("Mozilla/5.0 (Windows; Windows NT 10.5;) Gecko/20100101 Firefox/65.6").get();
 
             Elements priceHolder = document.select(subPriceHolder);
             String priceElement = priceHolder.select(subPriceElement).text();
-
+            System.out.println(priceHolder.select(subPriceElement).outerHtml());
             Elements nameHolder = document.select(subNameHolder);
 
+            ArrayList<String> urls = new ArrayList<>();
+
+            Elements urlsHolder = document.getElementsByTag("a");
 
 
-
+            for (Element link : urlsHolder){
+                //System.out.println(link.attr("abs:href"));
+            }
 
 
             String nameElement = "";
 
             if (isAmazon){
+
+                if (priceElement.equals("")){
+                    Elements newPriceHolder = document.select(".apexPriceToPay.a-size-medium.a-text-price.a-price");
+                    priceElement = newPriceHolder.select("span:nth-of-type(2)").text();
+                }
                 nameElement =   String.valueOf(nameHolder);
 
                 Element imageHolder = document.getElementById("imgTagWrapperId");
+
                 Elements imageTag = imageHolder.getElementsByTag("img");
                 img = imageTag.attr("src");
-
-
-                this.setAmazonElements(priceElement,nameElement);
+                name = imageTag.attr("alt");
+                this.setAmazonElements(priceElement);
             } else if (isEbay){
                 nameElement = nameHolder.select(subNameElement).text();
 
@@ -111,6 +124,7 @@ public class Product {
                 Elements imageTag = imageHolder.first().getElementsByTag("img");
 
                 img = imageTag.attr("src");
+
 
                 this.setEbayElements(priceElement,nameElement);
             }
@@ -156,7 +170,8 @@ public class Product {
         return null;
     }
 
-    public void setAmazonElements(String priceElement, String nameElement){
+    public void setAmazonElements(String priceElement){
+
         String finalPrice = "";
         for (int i = 0; i < priceElement.length(); i++) {
             if (priceElement.substring(i, i + 1).equals("$")) {
@@ -168,39 +183,8 @@ public class Product {
             finalPrice += priceElement.substring(i, i + 1);
         }
 
-        String finalName = "";
-        boolean isName = false;
-        boolean firstSpace = false;
+        System.out.println(finalPrice);
 
-        for (int x = 0; x < nameElement.length(); x++) {
-            if (nameElement.substring(x, x + 1).equals(">")) {
-                isName = true;
-                continue;
-            }
-
-            if (nameElement.substring(x, x + 1).equals("<") && x != 0) {
-                break;
-            }
-
-            if (nameElement.substring(x, x + 1).equals(" ") && isName) {
-                if (firstSpace == false) {
-                    firstSpace = true;
-                    continue;
-                }
-
-            }
-
-            if (isName) {
-                if (firstSpace) {
-                    finalName += nameElement.substring(x, x + 1);
-                }
-            }
-
-        }
-
-
-
-        name = finalName;
         price = Double.parseDouble(finalPrice);
     }
 
